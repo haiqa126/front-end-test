@@ -1,0 +1,136 @@
+.hero-wrapper {
+  align-items: center;
+}
+
+.hero-section .col-left {
+  align-items: center;
+  justify-content: end;
+}
+
+.hero-section .content-wrapper {
+  max-width: 525px;
+}
+
+.hero-section h2.title {
+  color: var(--color-white-2);
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-section p.description {
+  color: var(--color-white-2);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+.hero-section .sign-up-form {
+  display: flex;
+  padding: 64px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 8px;
+  background: #313131;
+  box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section .form .sign-btn {
+  display: flex;
+  width: 360px;
+  padding: 16px 2px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  transition: all 0.15s linear;
+  color: var(--color-white-1);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-section .form .sign-btn:hover{
+  transform: scale(1.05);
+}
+
+.hero-section .form .sign-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.hero-section .divider {
+  background: var(--color-dark-gray-2);
+  height: 1px;
+  width: 100%;
+}
+
+.hero-section .form .google-btn {
+  border-radius: 4px;
+  background: var(--color-light-green);
+}
+
+.hero-section .form .google-btn:hover{
+  cursor: pointer;
+  background: var(--color-dark-gray-2);
+}
+
+.hero-section .form .github-btn,
+.hero-section .form .email-btn {
+  border-radius: 4px;
+  background: #242424;
+}
+
+.hero-section .form .github-btn:hover,
+.hero-section .form .email-btn:hover{
+  cursor: pointer;
+  background: var(--color-light-green);
+}
+
+.hero-section .form .terms {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 360px;
+}
+
+/* Tablet styles */
+@media screen and (max-width: 768px) {
+}
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+
+  .hero-section .hero-wrapper{
+    padding: 75px 24px 24px 24px;
+  }
+
+  .hero-section .content-wrapper {
+    text-align: center;
+  }
+
+  .hero-section h2.title {
+    font-size: 39px;
+  }
+
+  .hero-section .form .sign-btn {
+    width: 100%;
+  }
+
+  .hero-section .sign-up-form {
+    padding: 40px;
+  }
+}

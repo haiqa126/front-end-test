@@ -1,0 +1,20 @@
+.features-sec > .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-sec .sec-description{
+    max-width: 607px;
+    margin-top: 20px;
+}
+
+
+.features-sec .cards-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: center;
+}
+

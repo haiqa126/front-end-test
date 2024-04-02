@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --color-dark-gray-1: #313131;
+    --color-dark-gray-2: #242424;
+    --color-light-green: #02B159;
+    --color-white-1: #FEFEFE;
+    --color-white-2: #DFDFDF;
+}

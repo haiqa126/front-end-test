@@ -1,0 +1,55 @@
+.contact-sec{
+    background: var(--color-dark-gray-1);
+}
+
+.contact-sec > .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 24px;
+}
+
+.contact-sec .sec-title{
+    color: #DFDFDF;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 30px;;
+}
+
+.contact-sec .sec-description{
+    color: #DFDFDF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.contact-sec .btn-wrapper{
+    display: flex;
+    gap: 64px;
+}
+
+.contact-sec .btn-wrapper .contact-btn{
+    background: transparent;
+    border: 1px solid white;;
+}
+
+/* Tablet styles */
+@media screen and (max-width: 768px) {
+
+}
+
+
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+    .contact-sec .btn-wrapper{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
